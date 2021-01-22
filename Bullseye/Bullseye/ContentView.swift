@@ -146,13 +146,13 @@ struct ContentView: View {
         let diff = amountOff()
         let title: String
         if diff == 0 {
-            title = "HOLY! perfecto my man!"
+            title = "WOW! perfect!"
         } else if diff < 5 {
-            title = "Almost had it bruv!"
+            title = "Almost had it!"
         } else if diff <= 10 {
             title = "not bad!"
         } else {
-            title = "Are u dumb fam?"
+            title = "Try again!"
         }
         return title
     }
